@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://getwallpapers.com/wallpaper/full/8/5/4/1392028-download-dark-background-images-3840x2160-for-android-50.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: rgba(133, 108, 108, 0.9); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px; 
+  width: 90%;
+  max-width: 600px; 
+  text-align: center; 
+  position: relative; 
+  margin:20px;
+  z-index: 1; 
+}
+
+.quote {
+  font-size: 1.2em; 
+  margin: 20px 0;
+  color: black;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-size: 1em;
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin:10px;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px; 
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .anecdote {
+    font-size: 1em;
+  }
+
+  button {
+    padding: 8px 16px; 
+  }
+}
