@@ -22,3 +22,34 @@ Make sure Node.js and npm are installed on your system.
 ```bash
 git clone https://github.com/Sanjana-Venkatesan/React-Projects.git
 cd React-Projects
+```
+
+### Install Dependencies
+```bash
+npm install
+```
+
+### Run the Application
+```bash
+npm run dev
+```
+Open your browser and visit [http://localhost:3000](http://localhost:3000).
+
+## 🧑‍💻 Usage
+- **Add a Contact**: Fill in the name and number, then click the Add button.
+- **Delete a Contact**: Click the Delete button next to the contact you want to remove.
+- **Search for Contacts**: Type in the search field to filter contacts by name.
+
+## ✨ Example Contacts
+- John Doe: 123-456-7890
+- Jane Smith: 987-654-3210
+- Alice Johnson: 555-123-4567
+
+## 🤝 Contributing
+Feel free to fork this repository and make your own improvements! Create a pull request if you'd like your changes to be merged.
+
+## 📄 License
+This project is open-source and available under the MIT License.
+
+## 🥂 Acknowledgements
+Built with ❤️ using React, inspired by the need for an easy way to manage contacts!
