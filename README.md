@@ -1,4 +1,4 @@
-React Projects Repository
+#React Projects Repository
 
 This repository contains two React projects that demonstrate basic React concepts and front-end development skills:
 
