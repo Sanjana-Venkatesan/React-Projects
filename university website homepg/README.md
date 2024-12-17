@@ -14,8 +14,8 @@ This project is a React application that displays information about different co
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sanjana-Venkatesan/React-Projects/tree/72a3daa0ca16d6d1ed3410eec50a4812f8b17a5e/university%20website%20homepg
-   cd your-repo
+   git clone https://github.com/Sanjana-Venkatesan/React-Projects.git
+   cd React-Projects
    ```
 2. Install dependencies:
    ```bash
